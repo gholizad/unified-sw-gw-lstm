@@ -1,0 +1,406 @@
+{
+  "basin": "01350000",
+  "eight_groups_renormalized": false,
+  "policy": "2007 input days use the 2007 map (same-year warm-up exception); 2008 onward uses exact map Y-1. Constant within each year; no interpolation, missing-map fill, or network requests.",
+  "records": {
+    "2007": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "f32644f5484f9e9b7855678f8c40347dc983ddb79b0e8cf07c4db2c0cb5c651c",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.06579223884304079,
+        "LULCBarran": 0.0013157299350845,
+        "LULCForest": 0.8434150437961252,
+        "LULCGrass": 0.0018959479571775,
+        "LULCShrub": 0.0013948495756954,
+        "LULCUrban": 0.060098721885221695,
+        "LULCWater": 0.0028497846859289,
+        "LULCWetland": 0.0232376544782536
+      },
+      "year": 2007
+    },
+    "2008": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "d44e727920e3e33a0ad5d78407cd7abddb6f5952e7f3d02a837208d298bf88f5",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0656076264022605,
+        "LULCBarran": 0.001283496016853,
+        "LULCForest": 0.8429403335849985,
+        "LULCGrass": 0.0022461180296823,
+        "LULCShrub": 0.0013699415479711,
+        "LULCUrban": 0.060377105724493396,
+        "LULCWater": 0.0029582078654347,
+        "LULCWetland": 0.0232171419848336
+      },
+      "year": 2008
+    },
+    "2009": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "2736da473e3fa961bf1bd9bcee38f3267d3f2305571239eccb7e313d51fe214c",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.065524111250479,
+        "LULCBarran": 0.0012585879891287,
+        "LULCForest": 0.8416377890789652,
+        "LULCGrass": 0.0032746841011268,
+        "LULCShrub": 0.0014812950836798,
+        "LULCUrban": 0.0605631833433752,
+        "LULCWater": 0.003069551530765,
+        "LULCWetland": 0.0231907687790078
+      },
+      "year": 2009
+    },
+    "2010": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "f45b7cc1c80395b88fea13f27e8f301be561f5093b5ca1dda3feb7d0c6630730",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0654318050300888,
+        "LULCBarran": 0.0012395406738101,
+        "LULCForest": 0.8412758880347663,
+        "LULCGrass": 0.0036190009549629,
+        "LULCShrub": 0.0014358745625355,
+        "LULCUrban": 0.06075512372780811,
+        "LULCWater": 0.0030754122431707,
+        "LULCWetland": 0.023167325929385
+      },
+      "year": 2010
+    },
+    "2011": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "a8dfe53e34ca57d339cb099511abf11db6853e8fe68a721f3363b3ce38d25562",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0652545184798158,
+        "LULCBarran": 0.0012864263730559,
+        "LULCForest": 0.8410443898947404,
+        "LULCGrass": 0.0039765044117119,
+        "LULCShrub": 0.0013508942326525,
+        "LULCUrban": 0.0610584155948043,
+        "LULCWater": 0.0028248667878261,
+        "LULCWetland": 0.0232039553819207
+      },
+      "year": 2011
+    },
+    "2012": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "1b488ffde7601db6b2e3354db0ca1d3d7931d32aaeba7efce03ccc2201c5ce81",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.064965878393834,
+        "LULCBarran": 0.0013054736883745,
+        "LULCForest": 0.8410443800243619,
+        "LULCGrass": 0.0038138696424532,
+        "LULCShrub": 0.0015223200705199,
+        "LULCUrban": 0.0614305708325677,
+        "LULCWater": 0.0026944758071772,
+        "LULCWetland": 0.0232230026972393
+      },
+      "year": 2012
+    },
+    "2013": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "b637c9f160a26f3abda53efbb7cc532c40e4f9c19981d9be98d41cea0f8c1c30",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0648545248581253,
+        "LULCBarran": 0.0013274513598959,
+        "LULCForest": 0.8409901814701191,
+        "LULCGrass": 0.0031984837803188,
+        "LULCShrub": 0.0019794587515037,
+        "LULCUrban": 0.0616225139449195,
+        "LULCWater": 0.0028424489250433,
+        "LULCWetland": 0.0231849080666021
+      },
+      "year": 2013
+    },
+    "2014": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "14b6526ab0e0010f0ab029f6535da3e4481baf3cadaa92793812f4c5c4cd7a0c",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0646757731297507,
+        "LULCBarran": 0.0013333120723016,
+        "LULCForest": 0.841018019854046,
+        "LULCGrass": 0.0028190027211857,
+        "LULCShrub": 0.0022944719741738,
+        "LULCUrban": 0.061843755838235606,
+        "LULCWater": 0.0028292623221304,
+        "LULCWetland": 0.0231863732447035
+      },
+      "year": 2014
+    },
+    "2015": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "7d9b25239b96d06f59932141adcb47f21d5f2e705a95b94b1c5bfae1ae8e27d6",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.064543907100622,
+        "LULCBarran": 0.0013259861817945,
+        "LULCForest": 0.8410312141968778,
+        "LULCGrass": 0.0023135296841172,
+        "LULCShrub": 0.0026959096261221,
+        "LULCUrban": 0.0619946691826829,
+        "LULCWater": 0.0028571007060576,
+        "LULCWetland": 0.0232376544782536
+      },
+      "year": 2015
+    },
+    "2016": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "1ade9ca0fc7371f5b7bf506bc1b4d6d38749a05a1005b6c34eaa50825b2a140e",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0644457401678261,
+        "LULCBarran": 0.0013259861817945,
+        "LULCForest": 0.8410136320596604,
+        "LULCGrass": 0.0020043633967647,
+        "LULCShrub": 0.0028541625690273,
+        "LULCUrban": 0.06221005036359321,
+        "LULCWater": 0.0029083819396077,
+        "LULCWetland": 0.0232376544782536
+      },
+      "year": 2016
+    },
+    "2017": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "3463a71107a73ba473e50b74fee8249b60b404cc3cccdfdc89248cf8f2ab72a3",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0643402473445231,
+        "LULCBarran": 0.0013201254693888,
+        "LULCForest": 0.8408993481677489,
+        "LULCGrass": 0.0018798232581431,
+        "LULCShrub": 0.0029611205704317,
+        "LULCUrban": 0.0624268967226049,
+        "LULCWater": 0.002953802460752,
+        "LULCWetland": 0.023218607162934998
+      },
+      "year": 2017
+    },
+    "2018": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "2d86df511cefccc7bef652eaf2e33ec474d9dc4f6d64604acc68d670d267a89d",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0642376848774231,
+        "LULCBarran": 0.0013450334971131,
+        "LULCForest": 0.840780668741533,
+        "LULCGrass": 0.0020248758901847,
+        "LULCShrub": 0.0028805357748531,
+        "LULCUrban": 0.06266718593123939,
+        "LULCWater": 0.002827797144029,
+        "LULCWetland": 0.023236189300152102
+      },
+      "year": 2018
+    },
+    "2019": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "7935750397ca6daf1b961262bb46c2ef244c07878c712299d9b3532adecef87e",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0641673563285543,
+        "LULCBarran": 0.0013406379628088,
+        "LULCForest": 0.8407484408215655,
+        "LULCGrass": 0.0020937332626881,
+        "LULCShrub": 0.0025904305107698,
+        "LULCUrban": 0.0628708456873383,
+        "LULCWater": 0.002964058707462,
+        "LULCWetland": 0.0232244678753407
+      },
+      "year": 2019
+    },
+    "2020": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "819df48b784a418ad63e363b619b7bf14f35841fd6793ea3fade8a68de82063d",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.06410142331399,
+        "LULCBarran": 0.0013494290314174,
+        "LULCForest": 0.8408993503234244,
+        "LULCGrass": 0.0021098598823449,
+        "LULCShrub": 0.0022373068999939,
+        "LULCUrban": 0.0630364108127999,
+        "LULCWater": 0.0030842131821577,
+        "LULCWetland": 0.0231819777103992
+      },
+      "year": 2020
+    },
+    "2021": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "57031991d3af8b6af44865633191064f31d461053dcafe98841118c32f4cc81d",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.06403255994322281,
+        "LULCBarran": 0.0013772674153446,
+        "LULCForest": 0.8414312098403028,
+        "LULCGrass": 0.0020234143743605,
+        "LULCShrub": 0.0017113179658998,
+        "LULCUrban": 0.0631492295266101,
+        "LULCWater": 0.0031076461614022,
+        "LULCWetland": 0.0231673259293849
+      },
+      "year": 2021
+    },
+    "2022": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "ac786e73b67673326658961489ee5e6f9d9cf695f1fcecb6cd2a4947529fdea6",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0639783483534698,
+        "LULCBarran": 0.001409501333576,
+        "LULCForest": 0.8418150803788125,
+        "LULCGrass": 0.0022417259114737,
+        "LULCShrub": 0.0010783671501469,
+        "LULCUrban": 0.0633250508987817,
+        "LULCWater": 0.0029552676388534,
+        "LULCWetland": 0.0231966294914135
+      },
+      "year": 2022
+    },
+    "2023": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "6a3d3afbcb3638af50a0b9d580d060b7dfd787329407c6b6d5d6d81dfa8f2b40",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.0639153456951084,
+        "LULCBarran": 0.0014007102649674,
+        "LULCForest": 0.8419235092863536,
+        "LULCGrass": 0.0022094919277735,
+        "LULCShrub": 0.0009303784993359,
+        "LULCUrban": 0.0634554517498091,
+        "LULCWater": 0.002974314954172,
+        "LULCWetland": 0.0231907687790078
+      },
+      "year": 2023
+    },
+    "2024": {
+      "provenance": {
+        "algorithm": "exact_pixel_intersection_v1_total_polygon_denominator",
+        "archive_member": "legacy/lulc_annual_fractions.csv",
+        "collection": "Annual NLCD Collection 1.2 Land Cover",
+        "geometry_sha256": "e5119341831983f3a394caf3c3b9b277cbdf47c2bcdf11239d1b5d4a4e445321",
+        "polygon_area_m2": 614259794.8476987,
+        "row_sha256": "0b458f8ac500d09c8932c478545e689601fb93c0b03e481fdc2642343fc887db",
+        "source_set": "legacy"
+      },
+      "values": {
+        "LULCAgri": 0.06376736270686391,
+        "LULCBarran": 0.0014974120196619,
+        "LULCForest": 0.8418473200250792,
+        "LULCGrass": 0.0023516142036122,
+        "LULCShrub": 0.0008996097592058,
+        "LULCUrban": 0.06356973564172061,
+        "LULCWater": 0.0028234016097247,
+        "LULCWetland": 0.0232435151906593
+      },
+      "year": 2024
+    }
+  },
+  "source_bundle_sha256": "bf586ed1366760f6849f57eb64c9f36529921e57268aad717f124ec9a2eedcaf",
+  "temporal_fill": "none",
+  "warmup_exception_year": 2007
+}
