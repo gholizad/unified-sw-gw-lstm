@@ -33,18 +33,13 @@ def get_dataset_with_custom_lstm(*args, **kwargs):
     return original_get_dataset(*args, **kwargs)
 
 
-def newest_pantarhei_config() -> Path:
-    configs = list(Path(".").glob("*_pantarhei.yml"))
-    if not configs:
-        raise FileNotFoundError("No *_pantarhei.yml files found in the current folder.")
-    return max(configs, key=lambda p: p.stat().st_mtime)
-
-
 datasetzoo.get_dataset = get_dataset_with_custom_lstm
 basetrainer.get_dataset = get_dataset_with_custom_lstm
 tester.get_dataset = get_dataset_with_custom_lstm
 
-config_file = Path(os.environ["CONFIG"]) if os.environ.get("CONFIG") else Path(sys.argv[1]) if len(sys.argv) > 1 else newest_pantarhei_config()
+config_file = Path(os.environ["CONFIG"]) if os.environ.get("CONFIG") else Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).with_name("config.yml")
+config_file = config_file.resolve()
+os.chdir(config_file.parent)
 gpu = int(os.environ.get("GPU", "0"))
 
 print(f"Using config file: {config_file}")
