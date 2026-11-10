@@ -9,7 +9,7 @@ import neuralhydrology.training.basetrainer as basetrainer
 from neuralhydrology.nh_run import start_run
 
 from srsblstm import SrSbLstm
-from nse_training_runtime import install
+from runtime import install
 
 
 original_get_dataset = datasetzoo.get_dataset
