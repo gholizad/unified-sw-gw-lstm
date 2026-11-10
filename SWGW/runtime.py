@@ -1,4 +1,3 @@
-"""Training-only normalized NSE statistics for the joint SW-GW model."""
 from __future__ import annotations
 
 import ast
@@ -85,7 +84,7 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 def write_json(path, value):
-    """Write deterministic provenance once, rejecting incompatible later writes."""
+
     path = Path(path)
     text = json.dumps(value, indent=2, allow_nan=False) + '\n'
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -113,7 +112,7 @@ def target_scalers(dataset):
     return result
 
 def training_statistics(dataset, xr):
-    """Calculate each configured target's std from normalized training data only."""
+
     targets, weights = target_spec(dataset)
     require(dataset.period == 'train' and dataset.is_train,
             'NSE denominators may only be fitted from a training dataset')
@@ -175,7 +174,7 @@ def attach_statistics(dataset, record):
 
 
 def install(config_file):
-    """Install the training-statistics hooks for this configured run."""
+
     global _installed_context
     from neuralhydrology.utils.config import Config
     from neuralhydrology.datasetzoo.basedataset import BaseDataset
