@@ -1,0 +1,99 @@
+experiment_name: SWGW
+run_dir: runs
+train_basin_file: BASINS.txt
+validation_basin_file: BASINS.txt
+test_basin_file: BASINS.txt
+train_start_date: 01/01/2010
+train_end_date: 31/12/2021
+validation_start_date: 01/01/2022
+validation_end_date: 01/01/2023
+test_start_date: 02/01/2023
+test_end_date: 01/01/2025
+per_basin_train_periods_file:
+per_basin_validation_periods_file:
+per_basin_test_periods_file:
+seed: 42
+device: cuda:0
+validate_every: 1
+validate_n_random_basins: 123
+cache_validation_data: true
+metrics:
+- NSE
+model: cudalstm
+checkpoint_path:
+head: regression
+output_activation: linear
+statics_embedding:
+  type: fc
+  hiddens:
+  - 30
+  - 20
+  - 64
+  activation: tanh
+  dropout: 0.0
+dynamics_embedding:
+  type: fc
+  hiddens:
+  - 30
+  - 20
+  - 64
+  activation: tanh
+  dropout: 0.0
+shared_mtslstm: false
+transfer_mtslstm_states:
+  h: identity
+  c: identity
+ode_method: euler
+ode_num_unfolds: 4
+ode_random_freq_lower_bound: 6D
+transformer_nlayers: 4
+transformer_positional_encoding_type: sum
+transformer_dim_feedforward: 32
+transformer_positional_dropout: 0.0
+transformer_dropout: 0
+transformer_nheads: 4
+hidden_size: 64
+initial_forget_bias: 3
+output_dropout: 0.4
+optimizer: Adam
+loss: NSE
+regularization:
+learning_rate:
+  0: 1e-3
+  10: 5e-4
+  20: 1e-4
+batch_size: 256
+epochs: 50
+target_noise_std:
+clip_gradient_norm: 1
+predict_last_n: 1
+seq_length: 1095
+num_workers: 4
+log_interval: 100
+log_tensorboard: true
+log_n_figures: 0
+save_weights_every: 1
+save_validation_results: true
+dataset: sr_sb_lstm
+data_dir: ..
+save_train_data: false
+train_data_file:
+forcings: daymet
+dynamic_inputs:
+- prcp(mm/day)
+- swe(mm)
+- tmin(C)_daymet
+- tmax(C)_daymet
+target_variables:
+- QObs(mm/d)
+- GWD(m)
+clip_targets_to_zero:
+- QObs(mm/d)
+static_attributes:
+- elev_mean
+- transmissivity
+- hydraulic_conductivity
+- storage_coefficient
+additional_feature_files:
+evolving_attributes:
+use_basin_id_encoding: true
